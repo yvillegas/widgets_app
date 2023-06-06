@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 final List<Color> colorList = [
   Colors.black,
-  Color.fromARGB(255, 224, 128, 219),
+  const Color.fromARGB(255, 224, 128, 219),
   Colors.white,
   Colors.blue,
   Colors.purple,
-  Color.fromARGB(255, 217, 20, 207)
+  const Color.fromARGB(255, 217, 20, 207)
 ];
 
 class AppTheme {
