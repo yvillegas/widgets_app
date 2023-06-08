@@ -24,4 +24,9 @@ const appMenuItems = <MenuItem>[
       subtitle: 'Varios botones',
       link: '/buttons',
       icon: Icons.smart_button_outlined),
+  MenuItem(
+      title: 'ProgressIndicators',
+      subtitle: 'Varios botones',
+      link: '/progress',
+      icon: Icons.smart_button_outlined),
 ];
