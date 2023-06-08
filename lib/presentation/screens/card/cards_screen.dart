@@ -51,7 +51,7 @@ class _CardType1 extends StatelessWidget {
   final String label;
   final double elevation;
 
-  const _CardType1({super.key, required this.label, required this.elevation});
+  const _CardType1({required this.label, required this.elevation});
 
   @override
   Widget build(BuildContext context) {
@@ -64,7 +64,7 @@ class _CardType1 extends StatelessWidget {
             Align(
               alignment: Alignment.topRight,
               child: IconButton(
-                icon: Icon(Icons.more_vert_outlined),
+                icon: const Icon(Icons.more_vert_outlined),
                 onPressed: () {},
               ),
             ),
@@ -83,14 +83,14 @@ class _CardType2 extends StatelessWidget {
   final String label;
   final double elevation;
 
-  const _CardType2({super.key, required this.label, required this.elevation});
+  const _CardType2({required this.label, required this.elevation});
 
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).colorScheme;
     return Card(
       shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.all(Radius.circular(12)),
+          borderRadius: const BorderRadius.all(Radius.circular(12)),
           side: BorderSide(color: colors.outline)),
       elevation: elevation,
       child: Padding(
@@ -100,7 +100,7 @@ class _CardType2 extends StatelessWidget {
             Align(
               alignment: Alignment.topRight,
               child: IconButton(
-                icon: Icon(Icons.more_vert_outlined),
+                icon: const Icon(Icons.more_vert_outlined),
                 onPressed: () {},
               ),
             ),
@@ -119,7 +119,7 @@ class _CardType3 extends StatelessWidget {
   final String label;
   final double elevation;
 
-  const _CardType3({super.key, required this.label, required this.elevation});
+  const _CardType3({required this.label, required this.elevation});
 
   @override
   Widget build(BuildContext context) {
@@ -134,7 +134,7 @@ class _CardType3 extends StatelessWidget {
             Align(
               alignment: Alignment.topRight,
               child: IconButton(
-                icon: Icon(Icons.more_vert_outlined),
+                icon: const Icon(Icons.more_vert_outlined),
                 onPressed: () {},
               ),
             ),
@@ -153,11 +153,10 @@ class _CardType4 extends StatelessWidget {
   final String label;
   final double elevation;
 
-  const _CardType4({super.key, required this.label, required this.elevation});
+  const _CardType4({required this.label, required this.elevation});
 
   @override
   Widget build(BuildContext context) {
-    final colors = Theme.of(context).colorScheme;
     return Card(
       clipBehavior: Clip.hardEdge,
       elevation: elevation,
@@ -176,7 +175,7 @@ class _CardType4 extends StatelessWidget {
                   borderRadius:
                       BorderRadius.only(bottomLeft: Radius.circular(20))),
               child: IconButton(
-                icon: Icon(Icons.more_vert_outlined),
+                icon: const Icon(Icons.more_vert_outlined),
                 onPressed: () {},
               ),
             ),
