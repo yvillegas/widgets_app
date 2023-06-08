@@ -17,11 +17,11 @@ const appMenuItems = <MenuItem>[
   MenuItem(
       title: 'Tarjetas',
       subtitle: 'Varios tarjetas',
-      link: '/buttons',
+      link: '/cards',
       icon: Icons.credit_card),
   MenuItem(
       title: 'Botones',
       subtitle: 'Varios botones',
-      link: '/cards',
+      link: '/buttons',
       icon: Icons.smart_button_outlined),
 ];
