@@ -9,7 +9,7 @@ class ButtonScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Buttons SCreen')),
-      body: _ButtonsView(),
+      body: const _ButtonsView(),
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.arrow_back_ios_new_outlined),
         onPressed: () {
@@ -89,7 +89,7 @@ class CustomButton extends StatelessWidget {
         color: colors.primary,
         child: InkWell(
           onTap: () {},
-          child: Padding(
+          child: const Padding(
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Text(
               "HolqaMundo",
