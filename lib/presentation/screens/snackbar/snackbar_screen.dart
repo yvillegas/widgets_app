@@ -31,8 +31,9 @@ class SnackbarScreen extends StatelessWidget {
                     'Et nulla mollit culpa sunt proident. In aliqua officia deserunt irure ut excepteur commodo aliquip sint duis voluptate eiusmod. Do sint culpa irure est tempor ea qui officia velit proident eiusmod. Proident et proident id amet aliquip. Esse fugiat minim pariatur est non pariatur voluptate officia ex ut. Nulla ex proident tempor tempor laboris consectetur. Occaecat nostrud do nisi commodo ipsum eu.'),
                 actions: [
                   TextButton(
-                      onPressed: () => context.pop(), child: Text('Cancelar')),
-                  FilledButton(onPressed: () {}, child: Text('Aceptar')),
+                      onPressed: () => context.pop(),
+                      child: const Text('Cancelar')),
+                  FilledButton(onPressed: () {}, child: const Text('Aceptar')),
                 ]));
   }
 

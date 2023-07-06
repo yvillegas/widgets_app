@@ -29,7 +29,7 @@ class _AnimatedScreenState extends State<AnimatedScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('animated Container'),
+        title: const Text('animated Container'),
       ),
       body: Center(
         child: AnimatedContainer(
